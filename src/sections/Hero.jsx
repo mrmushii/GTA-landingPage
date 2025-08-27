@@ -1,4 +1,5 @@
 import React from 'react'
+import ComingSoon from './ComingSoon'
 
 const Hero = () => {
   return (
@@ -17,6 +18,7 @@ const Hero = () => {
       <div className='fake-logo-wrapper'>
         <img src="/images/big-hero-text.svg" className='overlay-logo' alt="" />
       </div>
+      <ComingSoon/>
     </section>
   )
 }
