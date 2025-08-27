@@ -1,14 +1,12 @@
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/all"
 import Hero from "./sections/Hero"
+import Navbar from "./sections/Navbar"
 gsap.registerPlugin(ScrollTrigger)
 const App = () => {
   return (
     <main>
-      <nav>
-        <img src="/images/nav-logo.svg" className="scale-90" />
-        <img src="/images/menu.svg"  className="w-10" />
-      </nav>
+      <Navbar/>
       <Hero/>
     </main>
   )
