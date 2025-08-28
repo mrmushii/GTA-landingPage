@@ -9,8 +9,8 @@ const Jason = () => {
     gsap.timeline({
       scrollTrigger: {
         trigger: ".jason",
-        start: "top 90%",
-        end: "10% center",
+        start: "top 40%",
+        end: "15% center",
         scrub: 2,
         
       }
@@ -20,7 +20,7 @@ const Jason = () => {
     gsap.to(".jason .img-box", {
       scrollTrigger: {
         trigger:'.jason',
-        start:'top center',
+        start:'top 40%',
         end:'80% center',
         scrub:2,
       },y:-300,duration:2,ease:"power1.inOut"

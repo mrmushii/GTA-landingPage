@@ -9,7 +9,7 @@ const Lucia = () => {
     gsap.timeline({
       scrollTrigger: {
         trigger: ".lucia-life",
-        start: "top 90%",
+        start: "top 40%",
         end: "10% center",
         scrub: 2,
         
@@ -20,7 +20,7 @@ const Lucia = () => {
     gsap.to(".lucia-life .img-box", {
       scrollTrigger: {
         trigger:'.lucia-life',
-        start:'top center',
+        start:'top 40%',
         end:'80% center',
         scrub:2,
       },y:-200,duration:1,ease:"power1.inOut"
