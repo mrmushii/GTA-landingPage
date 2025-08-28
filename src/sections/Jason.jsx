@@ -23,7 +23,7 @@ const Jason = () => {
         start:'top center',
         end:'80% center',
         scrub:2,
-      },y:-300,duration:1,ease:"power1.inOut"
+      },y:-300,duration:2,ease:"power1.inOut"
       },'<'
     )
   })

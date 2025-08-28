@@ -12,14 +12,14 @@ const SecondVideo = () => {
         trigger:'.lucia',
         start:'top top',
         end: 'bottom top',
-        scrub:10,
+        scrub:1,
         pin: true,
       }
     })
     videoRef.current.onloadedmetadata = () =>{
       tl.to(videoRef.current,{currentTime:videoRef.current.duration,duration:3,ease:'power1.inOut'},'<')
     }
-    tl.to('.lucia',{opacity:1,duration:1,ease:'power1.inOut'})
+    tl.to('.lucia',{opacity:1,duration:2,ease:'power1.inOut'})
 
     })
   return (
